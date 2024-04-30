@@ -1,0 +1,146 @@
+body {
+    font-family: TT Lakes;
+    background-color: #F8F8F8;
+}
+.hidden {
+    display: none !important;
+}
+
+header {
+    margin: -7px;
+    padding: 20px;
+    padding-left: 30px;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/* Swiper */
+
+@media (max-width: 767px) {
+    .show-more-button {
+        display: none !important;
+    }
+    .hide-button {
+        display: none !important;
+    }
+    .brands {
+        display: none;
+    }
+
+    .swiper {
+        margin-top: 15px;
+        width: auto;
+    }
+    .swiper-wrapper {
+        margin-bottom: 40px;
+    }
+    .swiper-slide {
+        width: 240px !important;
+        height: 100%;
+        padding: 15px 0;
+        border: 1px solid #EAEAEA;
+        border-radius: 6px;
+    }
+    
+    .swiper-pagination-bullet {
+        background-color: #ABABAB !important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .swiper {
+      display: none !important;
+    }
+  }
+@media (min-width: 768px) {
+    .brands__list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr;
+        margin: 5px 25px;
+        margin-top: 20px;
+        gap: 15px 15px;
+    }
+}
+
+@media (min-width: 1120px) {
+    .brands__list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+
+.brands__brand,
+.swiper-slide {
+    display: grid;
+    width: 224px;
+    height: 72px;
+    gap: 20px;
+    align-items: center ;
+    grid-template-columns: 50% 50% ;
+    background-color: #fff;
+    border: 1px solid #EAEAEA;
+    border-radius: 6px;
+    
+}
+.brands__logo {
+    padding-left: 15px;
+}
+.brands__link {
+    justify-self: end;
+    padding-right: 40px;
+}
+
+.brends__button-image {
+    opacity: 100%;
+    transition: opacity 300ms;
+}
+.brends__button-image:hover {
+    opacity: 50%;
+}
+
+@media (min-width: 768px) {
+.show-more-button {
+    display: flex;
+    font-family: TT Lakes;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     text-align: left;
+     background: transparent;
+     border: none;
+     align-items: center;
+     gap: 10px;
+     margin: 0 0 0 15px;
+     opacity: 100%;
+     transition: opacity 300ms;
+    }
+.show-more-button:hover {
+    opacity: 50%;
+}
+
+.hide-button {
+    display: flex;
+    font-family: TT Lakes;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     text-align: left;
+     background: transparent;
+     border: none;
+     align-items: center;
+     gap: 10px;
+     margin: 0 0 0 15px;
+     opacity: 100%;
+     transition: opacity 300ms;
+    }
+.hide-button:hover {
+    opacity: 50%;
+}
+}
+
+
+
