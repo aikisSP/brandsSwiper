@@ -38,6 +38,7 @@ header {
         margin-bottom: 40px;
     }
     .swiper-slide {
+        display: grid !important;
         width: 240px !important;
         height: 100%;
         padding: 15px 0;
@@ -86,9 +87,7 @@ header {
     border-radius: 6px;
     
 }
-.swiper-slide {
-    display: grid !important;
-}
+
 .brands__logo {
     padding-left: 15px;
 }
