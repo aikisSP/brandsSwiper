@@ -86,10 +86,14 @@ header {
     border-radius: 6px;
     
 }
+.swiper-slide {
+    display: grid !important;
+}
 .brands__logo {
     padding-left: 15px;
 }
-.brands__link {
+
+.brands__link {  
     justify-self: end;
     padding-right: 40px;
 }
